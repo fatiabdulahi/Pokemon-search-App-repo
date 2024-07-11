@@ -1,0 +1,275 @@
+/* CSS reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+}
+
+/* Project styling */
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #1e7a7a;
+  color: hsl(300, 40%, 2%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.freecodecamp-logo {
+  height: 30px;
+  margin: 25px 0;
+}
+
+h1 {
+  color: hsl(120, 25%, 94%);
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.container {
+  width: 325px;
+  margin: 25px 0;
+  background-color: #19b824;
+  border: 1px solid #f5f6f7;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0px 0px rgba(223, 220, 220, 0.75);
+}
+
+.output,
+#search-form {
+  display: flex;
+  justify-content: center;
+}
+
+#search-form {
+  flex-wrap: wrap;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 8px 8px 0 0;
+  gap: 10px;
+}
+
+label {
+  align-self: center;
+}
+
+#search-input:focus-visible,
+#search-button:focus-visible {
+  outline: 3px solid #198eee;
+}
+
+#search-input {
+  height: 40px;
+  padding-left: 10px;
+  width: 200px;
+}
+
+#search-button {
+  padding: 14px 0;
+  width: 80px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #2ca707;
+  color: #f5f6f7;
+  border: none;
+}
+
+.output {
+  margin: 10px 0;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-container,
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 325px;
+}
+
+.top-container {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f1f7;
+}
+
+.name-and-id {
+  height: 28px;
+  font-size: 1.1em;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.size {
+  height: 22px;
+  font-size: 0.85rem;
+}
+
+.sprite-container {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sprite {
+  width: 180px;
+}
+
+#types {
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.type {
+  width: 66px;
+  padding: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(82, 116, 197);
+  text-transform: uppercase;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font-size: 1 rem;
+  color: #f5f6f7;
+  background-color: #36ab21;
+}
+
+th:nth-child(even),
+td:nth-child(even) {
+  border-left: 5px solid #f5f6f7;
+}
+
+tr {
+  border-bottom: 5px solid #f5f6f7;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+/* Special styling for Pokémon types */
+
+.normal {
+  background-color: #0bc63d;
+}
+
+.fire {
+  background-color: #2cb705;
+}
+
+.water {
+  background-color: #0cb63f;
+}
+
+.electric {
+  background-color: #11bc0b;
+}
+
+.grass {
+  background-color: #78cc55;
+}
+
+.ice {
+  background-color: #15c40b;
+}
+
+.fighting {
+  background-color: #1bb20d;
+}
+
+.poison {
+  background-color: #10b932;
+}
+
+.ground {
+  background-color: #01cc26;
+}
+
+.flying {
+  background-color: #34c608;
+}
+
+.psychic {
+  background-color: #17b940;
+}
+
+.bug {
+  background-color: #40b519;
+}
+
+.rock {
+  background-color: #66ba72;
+}
+
+.ghost {
+  background-color: #49c743;
+}
+
+.dragon {
+  background-color: #41d214;
+}
+
+.dark {
+  background-color: #31b907;
+}
+
+.steel {
+  background-color: #0ac407;
+}
+
+.fairy {
+  background-color: #46a711;
+}
+
+@media screen and (min-width: 550px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .container {
+    width: 450px;
+  }
+
+  #search-form,
+  .top-container,
+  .bottom-container {
+    width: 95%;
+  }
+
+  .type {
+    width: 75px;
+  }
+}
