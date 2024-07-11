@@ -12,7 +12,8 @@ This application search for Pokemon by name or ID and display the results to the
 
 Include a demo or animated GIF of your project. You can use tools like [asciinema](https://asciinema.org/) to record your terminal sessions.
 
-![Demo](demo.png)
+![Demo](demo1.png)
+![Demo](demo2.png)
 
 
 ## Technologies Used 🛠️
