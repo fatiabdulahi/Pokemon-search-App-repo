@@ -1,4 +1,4 @@
-# Pokemon-search-App-repo
+# Pokemon-search-App
 
 
 ## Project Description 📝
@@ -41,7 +41,7 @@ https://github.com/fatiabdulahi/Pokemon-search-App-repo/pull/1
 you can access to my project through git clone -git clone the HTTP or My SSH code link from the repository you wat to clone
 
 # git clone
-
+https://github.com/fatiabdulahi/Pokemon-search-App-repo/
 ## Features ⭐
 -javascript
 
