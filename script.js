@@ -13,12 +13,12 @@ const speed = document.getElementById('speed');
 const searchForm = document.getElementById('search-form');
 const searchInput = document.getElementById('search-input');
 
-
 const resetDisplay = () => {
   const sprite = document.getElementById('sprite');
   if (sprite) sprite.remove();
   
   // reset stats
+  
   pokemonName.textContent = '';
   pokemonID.textContent = '';
   types.innerHTML = '';

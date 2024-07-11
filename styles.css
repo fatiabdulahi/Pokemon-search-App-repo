@@ -48,7 +48,6 @@ h1 {
   background-color: #19b824;
   border: 1px solid #f5f6f7;
   border-radius: 15px;
-  box-shadow: 10px 10px 0px 0px rgba(223, 220, 220, 0.75);
 }
 
 .output,
@@ -70,11 +69,10 @@ label {
 }
 
 #search-input {
-    height: 40px;
-    padding-left: 10px;
-    width: 200px;
-  }
-
+  height: 40px;
+  padding-left: 10px;
+  width: 200px;
+}
 
 #search-button {
   padding: 14px 0;
